@@ -8,4 +8,5 @@ public class ntreeTraverse {
     void traverse(TreeNode root) {
         for (TreeNode child : root.children)
             traverse(child);
+    }
 }
